@@ -1,0 +1,26 @@
+<div class="login-form" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+  <div>
+    <form>
+      <div>
+        <mat-card style="text-align: center">
+          <img mat-card-md-image src="assets/images/logo.jpg" alt="Logo">
+        </mat-card>
+      </div>
+      <h4 class="modal-title">Login</h4>
+      <mat-form-field appearance="outline">
+        <mat-label>Username</mat-label>
+        <input matInput type="text" class="form-control" required>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+        <input matInput type="password" class="form-control" required>
+      </mat-form-field>
+      <mat-checkbox class="small">Remember me</mat-checkbox>
+      <span class="flex-spacer"></span>
+      <p style="text-align: center">
+        <button type="submit" mat-button class="background-primary">Connexion</button><br>
+        <a href="#" class="smaller">Forgot Password?</a>
+      </p>
+    </form>
+  </div>
+</div>
